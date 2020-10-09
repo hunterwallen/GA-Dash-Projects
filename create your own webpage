@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<style>
+  body {
+    text-align: center;
+    background: URL(https://i.imgur.com/PwA26FX.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 70px;
+    font-family: cursive;
+  }
+  h1 {
+    font-size: 60px;
+    color: antiquewhite;
+  }
+  h2 {
+    font-size: 30px;
+    color: tan;
+  }
+  p {
+    font-size: 20px;
+    color: white
+  }
+  input {
+    border: 0;
+    padding: 12px;
+  }
+  input[type="text"] {
+    background: gray;
+  }   
+  ::placeholder {
+    color: cadetblue;
+    font-size: 20px
+  }
+  input[type="submit"] {
+    background: cadetblue;
+    color: lightgray;
+  }
+</style>
+<body>
+<img src="https://i.imgur.com/IkRUgKCm.jpg">
+<h1>Hunter Wallen</h1>
+<h2>Aspiring Software Engineer</h2>
+<p><br>
+
+</br>I'd love to hear what's on your mind...<be>
+</br> Leave your contact info and I'll reach out.</p>
+<input type="text" placeholder="Let's talk!">
+<input type="submit">
+</body>
+
