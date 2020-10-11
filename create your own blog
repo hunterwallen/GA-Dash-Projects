@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<head>
+  <style>
+    header {
+      text-align: center;
+      background: url("https://i.imgur.com/7Kvy3dz.jpg");
+      background-size: cover;
+      background-position: center;
+      font-family: "Arial Black", Gadget, sans-serif
+    }
+    h1 {
+      color: wheat;
+      background: rgba(30, 30, 30 ,0.6);
+      padding: 30px;
+      font-size: 33px;
+    }
+    h2 {
+      color: lightgrey;
+      font-size: 17px;
+      background: rgba(50, 50, 50, 0.7); 
+      font-family: "Courier New", Courier, monospace;
+      padding: 10px;
+    }
+    h3 {
+      background: rgba(30, 50, 80, .7)
+    }
+    h4 {
+      color: tan;
+    }
+    a {
+      color: goldenrod;
+      font-family: "Arial Black", Gadget, sans-serif;
+      margin: 0 auto;
+    }
+    article {
+      margin: 0 auto;
+      padding: 20px;
+      font-family: "Arial Black", Gadget, sans-serif;
+      background: rgba(140,70, 40, 0.5);
+      text-align: center;
+      max-width: 700px;
+    }
+    p {
+      font-size: 12px;
+      color: azure;
+    }
+    img {
+      padding: 20px;
+    }
+    @media (max-width: 500px) {
+      header {
+        font-size: 36px;
+      }
+      img {
+        padding: 10px      
+      }
+      a {
+        font-size: 16px;
+      }
+      h4{
+        font-size: 14px;
+      }
+      p {
+        font-size: 12px;
+        padding: 10px
+      }
+    }
+
+  </style>
+</head>
+<body>
+  <header>
+      <h1>The Outspoken Outcast</h1>
+      <h2>The Human Condition: Forever a Work In Progress</h2>
+    <img src=https://i.imgur.com/ZqYD4K6b.png>  
+    <article>
+      <h4>Hunter's Thoughts</h4>
+      <h3><a href=https://theoutspokenoutcast.wordpress.com/the-short-version/>The Short Version of My Story</a></h3>
+      <p>It is impossible to tell my whole story in a single sitting. We all have so many tiny pieces that make up the whole of who we are. But knowing a little more about who I am today can put some of my experiences and opinions into perspective. So here goes nothing...</p>
+     <h3><a href=https://theoutspokenoutcast.wordpress.com/2019/06/29/opinions-borne-out-of-empathy/>Opinions Borne Out Of Empathy</a></h3>
+     <p>How many transgender people do you know? How many recovering addicts do you know? How many convicted felons do you know? Now I'm not asking how many you have met. I'm not asking how many you have had brief, easily forgettable interactions with. I'm asking how many you have actually spent time conversing with and learning about. And if you are a like the majority of Americans, I'd be willing to bet your answer to at least one of those questions is not many... </p>
+     <h3><a href=https://theoutspokenoutcast.wordpress.com/2019/03/08/35/>A Shot at Redemption</a></h3>
+      <p>All throughout history, mankind has been fascinated with the idea of redemption. From the myths of ancient Greece to the case studies in modern psychology, we devour tales of people who change for the better and redeem themselves in the eyes of their fellows. But is it a concept that we, as a society, really believe in? Or does our cynicism keep us from giving each other a chance to be better today than we were yesterday? In my experience, the vast majority of people say one thing and then do the exact opposite...</p>
+     <h3><a href=https://theoutspokenoutcast.wordpress.com/2019/03/06/no-apologies/>No Apologies</a></h3>
+     <p>My story thus far isnt always pretty. I've said and done plenty of things I am not proud of. And I am not alone. We all have skeletons in our closet and demons in our mind. But if there is one thing I know in this life it is this...</p>
+  </article>
+</header>
+</body>
