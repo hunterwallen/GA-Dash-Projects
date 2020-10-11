@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<head>
+<script src="/assets/jquery.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Sansita+Swashed:wght@300;800&display=swap" rel="stylesheet">
+<style>
+body {
+  font-family: helvetica, sans-serif;
+  margin: 0 auto;
+  max-width: 600px;
+  background: #966B25;
+}
+div {
+  height: 400px;
+  background-size: cover;
+  position: relative;
+  margin: 40px 0 0 0;
+  border-radius: 12px;
+}
+h1 {
+  font-family: 'Sansita Swashed', cursive;
+  text-align: center;
+  font-size: 60px;
+  color: #045A04;
+  margin: 60px 0 0 0;
+  /*background: rgba(0, 0, 0, .5);*/
+}
+h2 {
+  text-align: center;
+  color: #045A04;
+  margin: 0px 0 30px 0;
+  font-family: 'Sansita Swashed', cursive;
+}
+p {
+  color: rgba(255,255,255,1);
+  background: black;
+  background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  padding: 30px;
+  font-family: 'Lato', sans-serif;
+  font-size: 30px;
+  line-height: 28px;
+  text-align: justify;
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+  height: 30px;
+  transition: height .5s;
+  -webkit-transition: height .5s;
+  -moz-transition: height .5s;
+}
+
+small {
+  opacity: 0;
+  font-size: 20px
+}
+
+.show-description p {
+  height: 250px;
+}
+
+.show-description small {
+  opacity: 1;
+}
+
+.forest{
+  background-image: url("https://i.imgur.com/hWkwliH.jpg");
+}
+.moab{
+  background-image: url("https://i.imgur.com/DlFf2CH.jpg");
+}
+.sahara{
+  background-image: url("https://i.imgur.com/LMZdKzV.jpg");
+}
+.skyline{
+  background-image: url("https://i.imgur.com/7Kvy3dz.jpg");
+}
+.price {
+  float: right;
+}
+@media (max-width: 500px) {
+  h1 {
+    font-size: 50px;
+    margin-top: 20px;
+    line-height: 40px;
+  }
+  h2 {
+    font-size: 20px;
+    margin: 20px 0 30px 0;
+  }
+  div {
+    margin: 20px 12px 0 12px;
+  }
+  p {
+    font-size: 16px;
+    line-height: 24px;
+    padding: 10px;
+  }
+  small {
+    font-size: 10px;
+  }
+}
+
+</style>
+
+</head>
+
+<body>
+<h1>Off The Beaten Path</h1>
+<h2>Guided Off-Road Adventures</h2>
+<div class="forest">
+  <p>Forest Lake Trail <span class="price">Alpine, UT</span><br />
+  <small>This guided tour up the Forest Lake Trail is not for the faint of heart. The first section of the trail is composed of large rocky outcroppings and the latter section is thouroughly rutted and muddy. But for those with the persistence to get to the top, you'll be rewarded with a beautiful sheltered lake surrounded on all sides by the stunning Rocky Mountains. Our expert guides and adventure ready equipment will help you navigate this challenging adventure.</small></p>
+</div>
+
+<div class="moab">
+  <p>Little Moab<span class="price">Utah County, UT</span><br />
+  <small>If you don't have several days to spend out in the middle of nowhere, a trip to Moab can be hard to manage. Enter Little Moab Recreation Area. This slice of land about an hour south of Salt Lake City, UT has plenty of obstacles to tackle for both experienced and first time offroad enthusiasts. And it's proximity to civilization makes it ideal for day trips. Grab one of our 4x4 rigs and let us take you on a grand tour of what this spot has to offer.</small></p>
+</div>
+  
+<div class="sahara">
+  <p>Little Sahara<span class="price">Juab, UT</span><br />
+  <small>Who doesn't love a good romp in the sand dunes? And boy are these some huge dunes! At over 700 ft tall, Sand Mountain at Little Sahara makes for one heck of a day. Let us bring you, your friends and some of our side-by-side dune buggies to this desert gem and show you how to have a great time throwing caution, and sand, to the wind.</small></p>
+</div>
+
+<div class="skyline">
+  <p>Skyline Drive<span class="price">Bountiful, UT</span><br />
+  <small>Known as the highest driveable road in Utah, Skyline Drive is a great place to test out your skills as a beginner or just take in the sights if this isn't your first rodeo. Stunning 360 degree views of the Salt Lake Valley await you at the top as you curve through this three hour jaunt. Sunset tours available as well! Let us show you the way in one of our 4x4 equipped Jeep or ATV tours. </small></p>
+</div>
+
+<script>
+  $('div').on('click', function() {
+      $(this).toggleClass('show-description');
+  });
+</script>
+
+</body>
